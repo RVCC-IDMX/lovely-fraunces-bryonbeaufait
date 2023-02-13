@@ -4,7 +4,7 @@
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 100 900;
-    src: url('../fonts/Fraunces[SOFT,WONK,opsx,wght].ttf') format('truetype');
+    src: url('../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf') format('truetype');
 }
 
 @font-face {
@@ -14,7 +14,9 @@
     src: url('../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf') format('truetype');
 }
 
+
 $font: "Fraunces", serif;
+
 
 // body font styling vars
 $body-font-size: 120%;
@@ -26,3 +28,22 @@ $display-font: $font;
 $display-weight: 900;
 $display-spacing: 0.15em;
 $display-title-size: 4rem;
+
+// header prototype values
+// $header-font-wght: 221; 
+// $header-font-opsz: 52;
+// $header-font-soft: 76.2;
+// $header-font-wonk: 0.5;
+
+
+// // p1 prototype
+// $p1-font-wght: 473;
+// $p1-font-opsz: 28;
+// $p1-font-soft: 88.3;
+// $p1-font-wonk: 0.614
+
+// // p2 prototype
+// $p2-font-wght: 623;
+// $p2-font-opsz: 115;
+// $p2-font-soft: 199;
+// $p2-font-wonk: 1; 
